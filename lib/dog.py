@@ -46,7 +46,7 @@ class Dog:
     @breed.setter
     def breed(self, breed_val):
         if isinstance(breed_val, str) and (1 <= len(breed_val) <= 25):
-            print(f"{selbreed_valf._breed} is now {breed_val}")
+            print(f"{breed_val._breed} is now {breed_val}")
             self._breed = breed_val
         else:
             print("Name must be string between 1 and 25 characters.")
